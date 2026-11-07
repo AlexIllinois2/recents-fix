@@ -3,7 +3,7 @@ set -e
 SDK=/home/v/Android/Sdk
 BT=$SDK/build-tools/36.0.0
 ANDROID_JAR=$SDK/platforms/android-36/android.jar
-ROOT=/home/v/.local/project/redmi_n8p/work/module
+ROOT=$(cd "$(dirname "$0")" && pwd)
 OUT=$ROOT/out
 rm -rf "$OUT"
 mkdir -p "$OUT/stubs" "$OUT/classes" "$OUT/dex"
