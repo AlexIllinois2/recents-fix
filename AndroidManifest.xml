@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.n8p.recentsfix"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="30" android:targetSdkVersion="36" />
+
+    <application android:label="Recents Double Tap Fix">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="Second tap on recents button interrupts overview and switches to previous task" />
+        <meta-data android:name="xposedminversion" android:value="93" />
+    </application>
+</manifest>
